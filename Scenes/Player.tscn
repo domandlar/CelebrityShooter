@@ -49,7 +49,7 @@ script = ExtResource("1_lapp7")
 sprite_frames = SubResource("SpriteFrames_pwgga")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.337531
+frame_progress = 0.889817
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5)
