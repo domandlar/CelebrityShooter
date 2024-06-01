@@ -243,18 +243,19 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_orxju"]
-size = Vector2(7, 21.5)
+size = Vector2(6.5, 9)
 
 [node name="Player" type="CharacterBody2D"]
-up_direction = Vector2(1, 0)
+up_direction = Vector2(0.707107, -0.707107)
 script = ExtResource("1_lapp7")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_pwgga")
 animation = &"RightWalk"
 autoplay = "BackIdle"
-frame_progress = 0.0337145
+frame_progress = 0.415904
+offset = Vector2(0, -15)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 5)
+position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_orxju")
